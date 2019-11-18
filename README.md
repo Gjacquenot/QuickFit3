@@ -1,17 +1,20 @@
 # QuickFit3
+
 A data evaluation package for (imaging) fluorescence correlation spectroscopy and other biophysical methods
 
 Project Homepage: http://www.dkfz.de/Macromol/quickfit/
 
 ![Logo](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/images/icon_64.png)
 
-##Download
+## Download
+
 Currently QuickFit can be found here (will be moved to GitHub soon):
+
 - Windows Binaries: http://www.dkfz.de/Macromol/quickfit/#download
 - Source Code: https://github.com/jkriege2/QuickFit3
 - Several smaller source code components (also included as subprojects in the main repository) are summarized here: https://github.com/jkriege2/
 
-##Description
+## Description
 ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/images/splash.png)
 
 QuickFit 3 is a data evaluation software for FCS and imagingFCS (imFCS) measurements, developed in the group B040 (Prof. Jörg Langowski) at the German Cancer Research Center (DKFZ). Actually QuickFit 3 itself is a project manager and all functionality is added as plugins. A set of tested plugins for FCS, imagingFCS and some microscopy-related image processing tasks is supplied together with the software. New plugins that provide additional features will be added to this distribution of QuickFit when they become available. Currently these features are supported: 
@@ -33,7 +36,7 @@ QuickFit 3 is a data evaluation software for FCS and imagingFCS (imFCS) measurem
   - model fit (SPIM/TIR-FCS...)
   - global imaging FCCS fitting (SPIM/TIR-FCCS...)
   - plotting of parameter images, histograms and correlation plots (incl. several robust/normal statistics)
-  - export of fit results and parameter images as report (PDF/PS), image (PDF/PS/SVG/PNG/JPEG/LaTeX...), data (CSV, SYLK, Excel, Matlab ... also direct copy/paste to Excel/Origin)
+  - export of fit results and parameter images as report (PDF/PS), image (PDF/PS/SVG/PNG/JPEG/LaTeX...), data (CSV, SYLK, Excel, MatLab ... also direct copy/paste to Excel/Origin)
   - multi-threaded fits (~120 fits/second)
   - SPIM-FCS calibration wizard
   - number and brightness analysis
@@ -58,95 +61,118 @@ QuickFit 3 is a data evaluation software for FCS and imagingFCS (imFCS) measurem
 ## Licensing & Citation
 
 This software is partly LGPL 2.1 and partly GPL 3.0, as well as postcard ware: If you find QuickFit usefull and like it, please send us a postcard from your part of the world to
-```
+
     Deutsches Krebsforschungs Zentrum (DKFZ)
     Abteilung B040
     Im Neuenheimer Feld 580
     D-69120 Heidelberg
     GERMANY
-```
+
 If you use this software for a publication, you will have to cite QuickFit this in the publication. In the online-help we give examples of how to cite QuickFit. Also have a look at the online-help of the plugins you used to see whether you should cite additional libraries used in these plugins. Here is an example BiBTeX record that can be used to cite QuickFit (update to the version you downloaded or copy an. updated version from the Copyright page of the onine help!):
 
 ```BiBTeX
-    @misc{quickfit3,
-        author={Jan Wolfgang Krieger and Jörg Langowski},
-        title={QuickFit 3.0 (status: beta, compiled: ???, SVN: ???): A data evaluation application for biophysics},
-        howpublished={[web page] \verb+http://www.dkfz.de/Macromol/quickfit/+},
-        year={2015},
-        note={[Accessed on ???]},
-    } 
+@misc{quickfit3,
+    author={Jan Wolfgang Krieger and Jörg Langowski},
+    title={QuickFit 3.0 (status: beta, compiled: ???, SVN: ???): A data evaluation application for biophysics},
+    howpublished={[web page] \verb+http://www.dkfz.de/Macromol/quickfit/+},
+    year={2015},
+    note={[Accessed on ???]},
+} 
 ```
+
 A citation may look like this:
-```
+
     JW. Krieger, J. Langowski (2015): QuickFit 3.0 (status: beta, compiled: ???, SVN: ???): A data evaluation application for biophysics, [web page] http://www.dkfz.de/Macromol/quickfit/ [Accessed on ???] 
-```
+
 This software is provided as is without any warranties. Use it at your own risk. But: We do our best to make a well tested and good pakage (as it is massively used in our department).
 
 
 ## Screenshots
+
 ### Welcome Screen
+
 ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_welcome.png)
 
 ### Main Window
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_main.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_main.png)
 
 ### Settings Dialog
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_settings.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_settings.png)
 
 ### Online Help
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_help.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_help.png)
 
 ### User-Defined Fit Functions
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_userfitfunctions.png)
 
-### imaging FCS
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfcs.png)
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfcs_paramcorrelation.png)
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_userfitfunctions.png)
 
-### imaging FCS Fit
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfcsfit.png)
+### Imaging FCS
 
-### imaging FCCS Fit
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfccsfit.png)
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfcs.png)
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfcs_paramcorrelation.png)
+
+### Imaging FCS Fit
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfcsfit.png)
+
+### Imaging FCCS Fit
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_imfccsfit.png)
 
 ### FCS Fit
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_fcsfit.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_fcsfit.png)
 
 ### FCS: MSD Evaluation
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_msd.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_msd.png)
 
 ### FCS: MaxEnt evaluation
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_maxent.png)
 
-### global FCCS Fit
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_fccsfit.png)
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_maxent.png)
 
-### table plugin (spreadsheet/plots)
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_table.png)
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_tableplot.png)
+### Global FCCS Fit
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_fccsfit.png)
+
+### Table plugin (spreadsheet/plots)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_table.png)
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_tableplot.png)
 
 ### SPIM Lightsheet Analysis
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_lightsheet.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_lightsheet.png)
 
 ### Spectra Viewer
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_spectra.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_spectra.png)
 
 ### Diffusion Coefficient Calculator
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_dcalc.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_dcalc.png)
 
 ### 3D Image Stack Viewer
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_3dviewer.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/screen_3dviewer.png)
 
 ### Linux: Using QF3 to control a lightsheet microscope
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/linux_screen_spimcontrol.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/linux_screen_spimcontrol.png)
 
 ### Linux: The image stack plugin on Linux
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/linux_screen_imagestack.png)
+
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/linux_screen_imagestack.png)
 
 ### Linux: The FCS Fit plugin on Linux
- ![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/linux_screen_fcsfit.png)
 
-##How to compile
+![SplashScreen](https://raw.githubusercontent.com/jkriege2/QuickFit3/master/screenshots/linux_screen_fcsfit.png)
+
+## How to compile
+
  1. Check out the source code from this GitHub repository (https://github.com/jkriege2/QuickFit3.git)
  2. Set up the build environment. You will need (This is also detailed in https://github.com/jkriege2/QuickFit3/blob/master/basic_documentation/compile_quickfit3.txt ):
      * GIT (to check out the repository
